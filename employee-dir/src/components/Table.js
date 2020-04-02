@@ -1,4 +1,5 @@
 import React from "react";
+import DataTable from "./DataTable";
 
 function Table () {
     return (
@@ -12,29 +13,7 @@ function Table () {
                 <th scope="col">DOB</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                <th scope="row"><img alt= "cat" src="https://d2ph5fj80uercy.cloudfront.net/04/cat3730.jpg"></img></th>
-                <td>Cat Jones</td>
-                <td>123-456-7890</td>
-                <td>cat@mdo</td>
-                <td>01-01-2002</td>
-                </tr>
-                <tr>
-                <th scope="row"><img alt= "cat" src="https://d2ph5fj80uercy.cloudfront.net/04/cat3730.jpg"></img></th>
-                <td>Cat Jones</td>
-                <td>123-456-7890</td>
-                <td>cat@mdo</td>
-                <td>01-01-2002</td>
-                </tr>
-                <tr>
-                <th scope="row"><img alt= "cat" src="https://d2ph5fj80uercy.cloudfront.net/04/cat3730.jpg"></img></th>
-                <td>Cat Jones</td>
-                <td>123-456-7890</td>
-                <td>cat@mdo</td>
-                <td>01-01-2002</td>
-                </tr>
-            </tbody>
+            <DataTable />
         </table>
     )
 }

@@ -1,9 +1,8 @@
 import axios from "axios";
-const BASEURL = "https://www.omdbapi.com/?t=";
-const APIKEY = "&apikey=trilogy";
 
 export default {
-  search: function(query) {
-    return axios.get(BASEURL + query + APIKEY);
+  // Gets all users
+  getUsers: function() {
+    return axios.get("https://randomuser.me/api/?results=10&nat=us");
   }
 };
